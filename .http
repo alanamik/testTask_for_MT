@@ -1,0 +1,27 @@
+POST  http://127.0.0.1:8000/hello
+Content-Type: application/json
+
+{
+}
+###
+
+GET   http://127.0.0.1:8000/encrypt
+Content-Type: application/json
+
+{
+    "str": "Hello World",
+	"algorithm": "SHA-256"
+}
+###
+
+GET   http://127.0.0.1:8000/encrypt
+Content-Type: application/json
+
+{
+    "str": "Hello World",
+	"algorithm": "MD5"
+}
+
+
+
+
